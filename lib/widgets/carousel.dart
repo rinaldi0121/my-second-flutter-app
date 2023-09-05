@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:restaurant_app/common/styles.dart';
 
 class Carousel extends StatefulWidget {
   const Carousel(
@@ -51,7 +52,7 @@ class _CarouselState extends State<Carousel> {
                   child: Text(
                     variant,
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: secondaryColor,
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
                     ),
